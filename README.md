@@ -22,9 +22,9 @@ EX: Twitter App Build split into components:
 2. Profile
 3. Trends
 4. Feed
-Within the feed there are components:
-Tweet has component:
-Likes
+*Within the feed there are components:
+	-Tweet has component:
+	-Likes
 Like components can be reused on other pages or even different applications. Each component a piece of UI we could build this one in isolation then use components and put together to create complex UIs
 In terms of implementation, components are typically implemented as a JS class that has some state and render method. EX: 
 
